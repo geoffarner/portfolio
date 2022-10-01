@@ -1,5 +1,10 @@
 h1 {
-  color:black;
+  color:rgb(6, 34, 241);
+  text-shadow: 2px 2px yellow;
+}
+h2 {
+  color:rgb(6, 34, 241);
+  text-shadow: 2px 2px yellow;
 }
 
 p {
