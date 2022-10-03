@@ -10,3 +10,23 @@ h2 {
 p {
   color:black
 }
+.container {
+  width: 95%;
+  max-width: 1160px;
+  margin: auto;
+}
+.animated-heading {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  height: 100vh;
+}
+span#words {
+  font-weight: bolder;
+}
+h3 {
+  color:burlywood;
+  text-shadow: 2px 2px black;
+  font-weight: 500;
+  font-size: x-large;
+}

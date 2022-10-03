@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Geoff Arner About</title>
+    
+  </head>
+  <body style="background-color:cadetblue">
+    <div class="row-outer">
+      <div class="container">
+        <div class="animated-heading">
+          <h3>Hi I am a <span id="words">Full Stack Web Developer</span></h3>
+        </div>
+      </div>
+    </div>
+      <script type="text/javascript">
+        (function () {
+          var words = [
+            "Full Stack Web Developer",
+            "Software Engineer",
+            "Aspiring Cybersecurity Analyst",
+            "Husband and Father"
+          ],
+          i = 0;
+          setInterval(function(){
+            $('#words').fadeOut(function(){
+              $(this).html(words[(i = (i +1) % words.length)]).fadeIn();
+            });
+          }, 3000)
+        })();
+      </script>
+  </body>
+</html>
