@@ -8,25 +8,26 @@ h2 {
 }
 
 p {
-  color:black
+  color:black;
+  font-size: x-large;
 }
 .container {
-  width: 95%;
+  width: 100%;
+  height: 25%;
   max-width: 1160px;
-  margin: auto;
+  max-height: 100px;
+  padding: 100px;
 }
 .animated-heading {
   display: flex;
   align-items: top;
   justify-content: center;
   height: 100vh;
+  font-size: xx-large;
+  color: rgb(28, 103, 57);
+  text-shadow: 2px 2px black;
+  
 }
 span#words {
   font-weight: bolder;
-}
-h3 {
-  color:burlywood;
-  text-shadow: 2px 2px black;
-  font-weight: 500;
-  font-size: x-large;
 }
