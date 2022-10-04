@@ -16,13 +16,12 @@ p {
   height: 25%;
   max-width: 1160px;
   max-height: 100px;
-  padding: 100px;
+  padding: 20px;
 }
 .animated-heading {
   display: flex;
   align-items: top;
   justify-content: center;
-  height: 100vh;
   font-size: xx-large;
   color: rgb(28, 103, 57);
   text-shadow: 2px 2px black;
