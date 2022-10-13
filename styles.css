@@ -1,6 +1,7 @@
 h1 {
   color:rgb(6, 34, 241);
   text-shadow: 2px 2px yellow;
+  font-size: 75px;
 }
 h2 {
   color:rgb(6, 34, 241);
@@ -23,10 +24,15 @@ p {
   align-items: top;
   justify-content: center;
   font-size: xx-large;
-  color: rgb(28, 103, 57);
-  text-shadow: 2px 2px black;
+  color: rgb(6, 34, 241);
+  text-shadow: 2px 2px yellow;
   
 }
 span#words {
   font-weight: bolder;
+}
+
+.body-text{
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
