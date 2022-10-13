@@ -72,6 +72,7 @@ nav {
 
 .heading {
   color: whitesmoke;
+  text-shadow: 2px 2px black;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
@@ -79,6 +80,7 @@ nav {
 
 .nav-links a{
   color: lightgray;
+  text-shadow: 2px 2px black;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
@@ -88,10 +90,12 @@ nav {
 
 .nav-links li a:hover:not(.active) {
   background-color: lightseagreen;
+  text-shadow: 2px 2px black;
 }
 
 .nav-links li a.active {
   background-color: lightsalmon;
+  text-shadow: 2px 2px black;
 }
 /* cards css */
 .wrapper{
@@ -270,3 +274,4 @@ nav {
     margin: 0 0 2rem 0;
   }
 }
+/* contact page */
