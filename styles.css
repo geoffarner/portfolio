@@ -32,7 +32,43 @@ span#words {
   font-weight: bolder;
 }
 
-.body-text{
+.body { 
   display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.nav-links li {
+  list-style: none;
+}
+.heading {
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.nav-links a{
+  color: lightgray;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 14px 16px;
+}
+.nav-links li a:hover:not(.active) {
+  background-color: lightseagreen;
+}
+.nav-links li a.active {
+  background-color: lightsalmon;
 }
