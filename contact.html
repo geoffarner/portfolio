@@ -4,9 +4,45 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <title>Contact Page</title>
 </head>
 <body>
-  
+  <div class="container3">
+    <div style="text-align:center">
+      <h2>Contact Me</h2>
+      <p>If you have any questions or comments please send me an e-mail or call and leave me a message.</p>
+    </div>
+    <div class="row">
+      <div class="column" style="text-align:justify;">
+      <h3>Geoff Arner</h3>
+      <h3>120 West Thornton Ave</h3>
+      <h3>Saint Louis, Missouri</h3>
+      <h3>63119</h3>
+      <h3>417-793-3477</h3>
+      </div >
+      <div class="column" style="background-color: white;">
+        <form action="https://formsubmit.co/geoffarner5@gmail.com" method="POST">
+          <label for="fname">First Name</label> 
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email address" required>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." required style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
 </body>
+<style>
+  body {
+    background-image: url('./pictures/StL.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  </style>
 </html>
