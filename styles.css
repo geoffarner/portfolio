@@ -114,14 +114,16 @@ span#words {
 }
 
 .cols{
-  display: -ms-flexbox;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
+          justify-content: center; */
 }
 
 .col{
