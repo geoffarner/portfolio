@@ -43,3 +43,13 @@ clear.addEventListener("click", () => {
 erase.addEventListener("click", () => {
   input.value = input.value.substr(0, input.value.length - 1);
 });
+
+// navigation
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
